@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="20dp"
+        android:text="Welcome back, Evacuator!"
+        android:textAlignment="center"
+        android:textColor="#00eaff"
+        android:fontFamily="cursive"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColorHint="#FFF"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/broadcastMessage"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Broadcast Message"
+        android:typeface="monospace"
+        android:textAlignment="center"
+        android:backgroundTint="#00eeff"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/chatcall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Chat/call support"
+        android:typeface="monospace"
+        android:backgroundTint="#00eeff"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/shelcom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textAlignment="center"
+        android:backgroundTint="#00eeff"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:text="Shelter communications" />
+
+    <Button
+        android:id="@+id/database"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="databases"
+        android:backgroundTint="#00eeff"
+        android:typeface="monospace"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:backgroundTint="#00eeff"
+        android:typeface="monospace"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

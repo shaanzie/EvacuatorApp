@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EvacEasy"
+        android:textSize="40dp"
+        android:textColor="#00ffd0"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="50dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        android:backgroundTint="#FFFF"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        android:backgroundTint="#FFFF"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        android:backgroundTint="#FFFF"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        android:backgroundTint="#FFFF"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#01d0ff"
+        android:layout_margin="20dp"
+        android:text="@string/signup" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#01d0ff"
+        android:text="@string/login" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+
+</LinearLayout>
+
+
+

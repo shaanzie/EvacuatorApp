@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resource Request"
+        android:fontFamily="cursive"
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="30dp"/>
+
+    <EditText
+        android:id="@+id/ShelterLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@android:color/white"
+        android:layout_gravity="center"
+        android:hint="Enter your shelter ID"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/ResReq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter required resources"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:backgroundTint="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_res_req"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Broadcast Request"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "166352837396",
+    "firebase_url": "https://evacuator-29f74.firebaseio.com",
+    "project_id": "evacuator-29f74",
+    "storage_bucket": "evacuator-29f74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166352837396:android:6f85e030fc287ec5",
+        "android_client_info": {
+          "package_name": "com.evaceasy.codefundo.evacuator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166352837396-u4pvoqbq7q6ocjssath5ovgetlh21vp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.evaceasy.codefundo.evacuator",
+            "certificate_hash": "851db94693d640a61a5b2d0164437142bfac4006"
+          }
+        },
+        {
+          "client_id": "166352837396-ff20pgh290k74j6jbm1llevrmrpk8iic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJmn_ATZjgwPzX1hKXtHRYdCqdk0jYFQ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166352837396-ff20pgh290k74j6jbm1llevrmrpk8iic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

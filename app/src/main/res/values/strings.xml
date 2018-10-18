@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Evacuator</string>
+    <string name="email">Email</string>
+    <string name="signup">SignUp</string>
+    <string name="login">Login</string>
+    <string name="em1">Email</string>
+    <string name="pswd">Password</string>
+</resources>
